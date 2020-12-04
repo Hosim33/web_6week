@@ -22,7 +22,7 @@ if($count == 1 && $count2 == 1) {
   $result3 = mysqli_query($con, $query3) or die("query error3");
 
   echo "글 작성이 완료되었습니다.";
-  echo '<a href="/showboard.php">게시글 목록 보기</a>';
+  echo '<a href="/board.php">게시글 목록 보기</a>';
   exit();
 }
 else {
